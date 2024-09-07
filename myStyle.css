@@ -1,0 +1,110 @@
+/* Đặt ảnh nền cho tất cả các trang */
+body {
+    background-image: url('quock29.png'); /* Đường dẫn đến ảnh nền liên quan đến ngày 2/9 */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: green; /* Màu xanh cho văn bản trong trang */
+}
+
+/* Tiêu đề chính */
+header h1 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #1E90FF; /* Màu sắc khác đen và xanh */
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* Khu vực chính */
+main {
+    padding: 40px 20px;
+}
+
+/* Phần giới thiệu thành viên */
+#family h2 {
+    font-family: Arial, sans-serif;
+    font-size: 16pt;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    color: #1E90FF; /* Màu sắc khác đen và xanh */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Hộp thành viên */
+.member {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Hình ảnh của thành viên */
+.member img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #6a8eae;
+    margin-bottom: 15px;
+}
+
+/* Hyperlink */
+a {
+    color: red; /* Màu chữ đỏ */
+    text-decoration: none; /* Không có gạch chân */
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
+
+/* Footer */
+footer {
+    background-color: #6a8eae;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Style cho tiêu đề */
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    color: blue; /* Màu xanh */
+}
+
+/* Style cho nội dung */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: purple; /* Màu tím */
+}
+
+/* Style cho siêu liên kết */
+a {
+    font-style: italic;
+    color: green; /* Màu green */
+    text-decoration: none; /* Không có gạch chân */
+}
+
+a:hover {
+    text-decoration: underline; /* Gạch chân khi hover */
+}
